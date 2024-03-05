@@ -13,6 +13,12 @@
     font-size: 2em;
     line-height: 1.25;
   }
+
+  h3 {
+    font-size: 1.1em;
+    line-height: 1.25;
+    font-weight: bold;
+  }
   .cta-1 {
     color: linear-gradient(135 deg, #60A9FF 10%, #D187FF 90%);
       background: linear-gradient(135deg, #60A9FF 10%, #D187FF 90%);
