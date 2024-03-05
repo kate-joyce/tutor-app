@@ -12,12 +12,14 @@
   h2 {
     font-size: 2em;
     line-height: 1.25;
+    margin-bottom: 16px;
   }
 
   h3 {
     font-size: 1.1em;
     line-height: 1.25;
     font-weight: bold;
+    margin-bottom: 8px;
   }
   .cta-1 {
     color: linear-gradient(135 deg, #60A9FF 10%, #D187FF 90%);
@@ -26,6 +28,9 @@
       border-radius: 1em;
       color: black;
       font-weight: bold;
+  }
+  section {
+    margin-top: 24px;
   }
 }
 /* bg-science-blue */
