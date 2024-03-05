@@ -1,8 +1,29 @@
 .App {
   text-align: center;
-}
+  font-family:'Ubuntu', sans-serif;
+  color: #FAF9F6;
+  background-color: #120F37;
 
-.App-logo {
+  h1 {
+    font-size: 2.25em;
+    line-height: 1.25;
+  }
+
+  h2 {
+    font-size: 2em;
+    line-height: 1.25;
+  }
+  .cta-1 {
+    color: linear-gradient(135 deg, #60A9FF 10%, #D187FF 90%);
+      background: linear-gradient(135deg, #60A9FF 10%, #D187FF 90%);
+      padding: 9px;
+      border-radius: 1em;
+      color: black;
+      font-weight: bold;
+  }
+}
+/* bg-science-blue */
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -14,7 +35,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #333428;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +56,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
