@@ -1,9 +1,10 @@
+/* Styling strategy - stylesheet for global styles, tailwind for structure and styled components for custom component css */
 .App {
   text-align: center;
   font-family:'Ubuntu', sans-serif;
   color: #FAF9F6;
   background-color: #120F37;
-
+}
   h1 {
     font-size: 2.25em;
     line-height: 1.25;
@@ -21,50 +22,6 @@
     font-weight: bold;
     margin-bottom: 8px;
   }
-  .cta-1 {
-    color: linear-gradient(135 deg, #60A9FF 10%, #D187FF 90%);
-      background: linear-gradient(135deg, #60A9FF 10%, #D187FF 90%);
-      padding: 9px;
-      border-radius: 1em;
-      color: black;
-      font-weight: bold;
-  }
   section {
     margin-top: 24px;
   }
-}
-/* bg-science-blue */
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #333428;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */

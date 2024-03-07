@@ -4,8 +4,8 @@ function Contact() {
   const [isOpen, setIsOpen] = useState(false);
 
   function toggle() {
-    console.log(`isOpen value`, isOpen)
     setIsOpen((isOpen) => !isOpen);
+    console.log(`isOpen value`, isOpen)
   }
 
   return (
