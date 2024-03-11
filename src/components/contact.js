@@ -5,15 +5,14 @@ function Contact() {
 
   function toggle() {
     setIsOpen((isOpen) => !isOpen);
-    console.log(`isOpen value`, isOpen)
   }
 
   return (
     <section>
       <h2>Contact Information</h2>
       <div className="flex">
-        <button onClick={toggle}>?</button>
-        <h4>Get in touch</h4>
+        <button onClick={toggle}><i className={!isOpen ? 'fa-solid fa-circle-chevron-right': 'fa-solid fa-circle-chevron-down'}></i></button>
+        <h4 className="ml-2">Get in touch</h4>
       </div>
       {isOpen ?
         <div>

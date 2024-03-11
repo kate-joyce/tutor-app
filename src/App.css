@@ -5,23 +5,31 @@
   color: #FAF9F6;
   background-color: #120F37;
 }
-  h1 {
-    font-size: 2.25em;
-    line-height: 1.25;
-  }
 
-  h2 {
-    font-size: 2em;
-    line-height: 1.25;
-    margin-bottom: 16px;
-  }
+h1 {
+  font-size: 2.25em;
+  line-height: 1.25;
+}
 
-  h3 {
-    font-size: 1.1em;
-    line-height: 1.25;
-    font-weight: bold;
-    margin-bottom: 8px;
-  }
-  section {
-    margin-top: 24px;
-  }
+h2 {
+  font-size: 2em;
+  line-height: 1.25;
+  margin-bottom: 16px;
+}
+
+h1, h2 {
+  background: linear-gradient(135deg, #60A9FF 10%, #D187FF 90%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+h3 {
+  font-size: 1.1em;
+  line-height: 1.25;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+section {
+  margin-top: 24px;
+}
