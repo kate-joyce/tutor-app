@@ -7,20 +7,19 @@
 }
 
 h1 {
-  font-size: 2.25em;
-  line-height: 1.25;
+  font-size: 3.25em;
+  line-height: 1.25em;
 }
 
 h2 {
-  font-size: 2em;
-  line-height: 1.25;
+  font-size: 2.5em;
+  line-height: 1.25em;
   margin-bottom: 16px;
 }
 
 h1, h2 {
-  background: linear-gradient(135deg, #60A9FF 10%, #D187FF 90%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  color: #fff;
+  font-weight: bold;
 }
 
 h3 {
@@ -32,4 +31,11 @@ h3 {
 
 section {
   margin-top: 24px;
+}
+
+#services {
+  height: 50vh;
+    border-radius: 1em;
+    background: #2b1472;
+    padding: 20px;
 }
