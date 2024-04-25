@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.98c3d39d.css",
-    "main.js": "/static/js/main.2681fc35.js",
-    "static/js/453.ed3810f9.chunk.js": "/static/js/453.ed3810f9.chunk.js",
-    "static/media/hero-science.png": "/static/media/hero-science.5ed9fbee83f99ea45312.png",
-    "index.html": "/index.html",
-    "main.98c3d39d.css.map": "/static/css/main.98c3d39d.css.map",
-    "main.2681fc35.js.map": "/static/js/main.2681fc35.js.map",
-    "453.ed3810f9.chunk.js.map": "/static/js/453.ed3810f9.chunk.js.map"
+    "main.css": "/tutor-app/static/css/main.98c3d39d.css",
+    "main.js": "/tutor-app/static/js/main.fdf28f04.js",
+    "static/js/453.ed3810f9.chunk.js": "/tutor-app/static/js/453.ed3810f9.chunk.js",
+    "static/media/hero-science.png": "/tutor-app/static/media/hero-science.5ed9fbee83f99ea45312.png",
+    "index.html": "/tutor-app/index.html",
+    "main.98c3d39d.css.map": "/tutor-app/static/css/main.98c3d39d.css.map",
+    "main.fdf28f04.js.map": "/tutor-app/static/js/main.fdf28f04.js.map",
+    "453.ed3810f9.chunk.js.map": "/tutor-app/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98c3d39d.css",
-    "static/js/main.2681fc35.js"
+    "static/js/main.fdf28f04.js"
   ]
 }
