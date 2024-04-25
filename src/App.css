@@ -31,11 +31,13 @@ h3 {
 
 section {
   margin-top: 24px;
+  padding: 20px;
+  text-align: left;
 }
 
 #services {
   height: 50vh;
     border-radius: 1em;
     background: #2b1472;
-    padding: 20px;
+    scroll-margin: 100px 0 0 100px;
 }

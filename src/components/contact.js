@@ -16,7 +16,7 @@ function Contact() {
       </div>
       {isOpen ?
         <div>
-          <p className="text-left">Starting from £35ph, depending on subject, level and whether online or face to face.</p>
+          <p className="text-left mt-2 ml-6">Starting from £35ph, depending on subject, level and whether online or face to face.</p>
         </div>
       :
       <></>

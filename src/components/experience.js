@@ -5,16 +5,11 @@ const Icon = styled.i`
   max-width: fit-content;
 `
 
-const Card = styled.div`
-// background: #7224BF, 60%);
-//   border-radius: 1em;
-//   `
-
 function Experience() {
   return (
-    <section>
+    <section className="flex flex-col">
       <h2>Qualifications and Experience</h2>
-      <Card className="container flex">
+      <div>
         <div className="p-2">
           <Icon className="fa-solid fa-flask fa-3x my-2"/>
           <h3>Subject Expertise</h3>
@@ -25,7 +20,7 @@ function Experience() {
           <h3>Teaching Expertise</h3>
           <p>Proven track record of helping students excel in science.</p>
         </div>
-      </Card>
+      </div>
     </section>
   );
 }

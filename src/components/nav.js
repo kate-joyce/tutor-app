@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const NavBar = styled.nav`
-  background: #2b1472;
+  background: #211457;
 `
 
 function Nav() {

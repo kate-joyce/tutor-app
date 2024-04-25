@@ -9,7 +9,7 @@ function Services() {
         </div>
         <div className="grow">
           <h3>Face to Face</h3>
-          <p>Personalized, in-person instruction to support academic growth.</p> 
+          <p>Personalised, in-person instruction to support academic growth.</p> 
         </div>   
       </div>  
     </section>
