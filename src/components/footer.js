@@ -3,18 +3,16 @@ import styled from 'styled-components'
 const Foot = styled.footer`
   background: #211457;
   height: 20vh;
-
 `
 
 function Footer() {
   return (
-  <Foot>
-    <p className="text-bold">© Tutor Services</p>
-    <small className="text-bold">2024</small>
-    <hr />
+  <Foot className="py-6">
+    <p className="text-bold">© Tutor Services 2024</p>
+    <hr className="my-6" />
     <ul>
       <li>
-        <a href="#home">Back to top <i class="fa-solid fa-angle-up"></i></a>
+        <a href="#home">Back to top <i className="fa-solid fa-angle-up"></i></a>
       </li>
     </ul>
   </Foot>
